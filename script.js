@@ -23,7 +23,7 @@ async function checkWeather(city) {
         document.querySelector(".wind").innerHTML = data.wind.speed + "km/h";
 
         if (data.weather[0].main == "Clouds") {
-            weatherIcon.src = "Assets/cloud.png";
+            weatherIcon.src = "Assets/clouds.png";
         } else if (data.weather[0].main == "Clear") {
             weatherIcon.src = "Assets/clear.png";
         } else if (data.weather[0].main == "Rain") {
