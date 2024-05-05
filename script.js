@@ -30,8 +30,8 @@ async function checkWeather(city) {
             weatherIcon.src = "Assets/rain.png";
         } else if (data.weather[0].main == "Drizzle") {
             weatherIcon.src = "Assets/drizzle.png";
-        } else if (data.weather[0].main == "Snow") {
-            weatherIcon.src = "Assets/snow.png";
+        } else if (data.weather[0].main == "mist") {
+            weatherIcon.src = "Assets/mist.png";
         }
 
         document.querySelector(".weather").style.display = "block";
