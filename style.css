@@ -214,7 +214,7 @@ footer a:hover{
         color:azure;
     }
 }
-@media screen and (max-width: 400px){
+@media only screen and (-webkit-min-device-pixel-ratio: 2.625){
     *{
         margin: 0;
         padding: 0;
