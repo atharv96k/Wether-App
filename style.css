@@ -104,6 +104,116 @@ footer a{
 footer a:hover{
     color:azure;
 }
+@media screen and (max-width: 420px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    body{
+        background-color: #222;
+    }
+    .card{
+        width: 90%;
+        /* height: 30rem; */
+        max-width: 470px;
+        background: linear-gradient(135deg,#00feba, #5b548a);
+        color: #fff;
+        margin: 70px auto 0 ;
+        margin-bottom: 50px;
+        border-radius: 20px;
+        padding: 40px 5px;
+        text-align: center;
+    }
+    .search{
+        width: 104%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .search input{
+        border: 0;
+        outline: 0;
+        background: #ebfffc;
+        color: #555;
+        padding: 10px 25px;
+        height: 60px;
+        border-radius: 30px;
+        flex: 1;
+        margin-right: 8px;
+        margin-left: 10px;
+        font-size: 16px;
+    }
+    .search button{
+        border: 0;
+        outline: 0;
+        background: #ebfffc;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        cursor: pointer;
+        margin-right: 20px;
+    }
+    .search button img{
+        width: 18px;
+    }
+    .weather-icon {
+        width: 121px;
+        margin-top: 5px;
+    }
+    .weather h1 {
+        font-size: 50px;
+        font-weight: 500;
+    }
+    .weather h2 {
+        font-size: 51px;
+        font-weight: 400;
+        margin-top: 2px;
+    }
+    .details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 4px 20px;
+        margin-top: 49px;
+    }
+    .col{
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+    .col img {
+        width: 30px;
+        margin-right: 10px;
+    }
+    .humidity, .wind {
+        font-size: 19px;
+    }
+    .weather{
+        display: none;
+    }
+    .error{
+        text-align: left;
+        margin-left:10px ;
+        font-size: 14px;
+        margin-top: 10px;
+        display: none;
+    }
+    footer{
+        margin-top: 15px;
+        margin-bottom: -19px;
+    }
+    footer a{
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        font-size: .9rem;
+        color: rgba(240, 255, 255, 0.404);
+    }
+    footer a:hover{
+        color:azure;
+    }
+}
 @media screen and (max-width: 400px){
     *{
         margin: 0;
@@ -214,4 +324,3 @@ footer a:hover{
         color:azure;
     }
 }
-
